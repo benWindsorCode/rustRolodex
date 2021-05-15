@@ -18,6 +18,21 @@ pub struct Contact {
     entries: Vec<Entry>
 }
 
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Rolodex {
+    contacts: Vec<Contact>
+}
+
+impl Rolodex {
+    pub fn new() -> Rolodex {
+        Rolodex { contacts: Vec::new() }
+    }
+
+    pub fn add_contact(&mut self, contact: Contact) {
+        self.contacts.push(contact);
+    }
+}
+
 impl Contact {
     pub fn new(first_name: String, last_name: String) -> Contact {
         Contact {first_name: first_name, last_name: last_name, entries: Vec::new()}
