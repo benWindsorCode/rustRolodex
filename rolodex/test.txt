@@ -1,1 +1,1 @@
-{"contacts":[{"entries":[{"entry":"Some data"}],"first_name":"Ben","last_name":"Man"}]}
+{"contacts":[{"entries":[{"entry":"Some data about meeting with Ben"}],"first_name":"Ben","last_name":"Windsor"},{"entries":[{"entry":"Some data about coffee with Charles"}],"first_name":"Charles","last_name":"Samuel"},{"entries":[{"entry":"Some notes about meeting with Sophie"}],"first_name":"Sophia","last_name":"Marple"}]}

@@ -13,14 +13,14 @@ pub struct Entry {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Contact {
-    first_name: String,
-    last_name: String,
+    pub first_name: String,
+    pub last_name: String,
     entries: Vec<Entry>
 }
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Rolodex {
-    contacts: Vec<Contact>
+    pub contacts: Vec<Contact>
 }
 
 impl Rolodex {
